@@ -1,0 +1,5 @@
+xinput gives me a list of input devices, to find the touchpad's id.
+
+xinput list-props [touchpad id] shows you all the properties the touchpad can have, and the property id in turn.
+
+xinput set-prop [touchpad id] [property id] [value] will change the setting of that property
